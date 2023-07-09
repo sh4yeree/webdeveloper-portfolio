@@ -6,6 +6,7 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px
 }
 .title{
     color:rgb(66, 94, 148);
@@ -19,7 +20,7 @@ nav {
     border-radius: 5px;
     background:rgb(212, 157, 165);
     border: 0;
-    color:azure;
+    color:rgb(23, 23, 80);
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -37,3 +38,13 @@ nav a{
     text-decoration: none;
     color:rgb(29, 39, 39)
 }
+.header{
+    background-color:rgba(204, 176, 180, 0.267) ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center
+}
+.banner .pfp{
+    width: 300px;}
